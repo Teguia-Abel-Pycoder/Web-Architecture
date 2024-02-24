@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+}
+.container{
+    width: 100%;
+    
+    background-color: tomato;
+    display: block;
+
+}
+header{
+    width: 75%;
+    margin: 0px auto 200px auto;
+    background-color: greenyellow;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+    
+}
+.logo{
+    width: 20%;
+    height: 80px;
+    background-color: gray;
+
+}
+svg{
+    margin: 0px;
+}
+nav{
+    width: 60%;
+    background-color: bisque;
+    padding: 0px 220px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    margin-top: 15px;
+}
+a p{
+    margin: 0px;
+}
+.subscribe{
+    width: 20%;
+   
+    background-color: rgb(151, 28, 28);
+    text-align: right;
+    padding: 8px 0px;
+    
+}
+.Subscribe-button{
+    text-decoration: none;
+    border: 0px solid rosybrown;
+    background-color: rgb(7, 49, 104);
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 15px 9px 15px ;
+   
+}
+.Subscribe-button:hover{
+    
+    color: rgb(7, 49, 104);
+    background-color: white;
+    transition: 0.4s;
+   
+}
+main{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("Resources/Image.jpeg");
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
