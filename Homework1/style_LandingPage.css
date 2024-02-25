@@ -3,15 +3,14 @@ body{
 }
 .container{
     width: 100%;
-    
-    background-color: tomato;
+    background-color: rgba(255, 99, 71, 0);
     display: block;
 
 }
 header{
-    width: 75%;
-    margin: 0px auto 200px auto;
-    background-color: greenyellow;
+    width: 70%;
+    margin: 10px auto 0px auto;
+    background-color: rgba(172, 255, 47, 0);
     display:flex;
     justify-content: space-between;
     padding: 20px 0px 0px 0px;
@@ -20,15 +19,14 @@ header{
 .logo{
     width: 20%;
     height: 80px;
-    background-color: gray;
-
+    background-color: rgba(128, 128, 128, 0);
 }
 svg{
     margin: 0px;
 }
 nav{
     width: 60%;
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, 0);
     padding: 0px 220px;
     display: flex;
     justify-content: space-between;
@@ -42,15 +40,14 @@ a p{
 }
 .subscribe{
     width: 20%;
-   
-    background-color: rgb(151, 28, 28);
+    background-color: rgba(151, 28, 28, 0);
     text-align: right;
     padding: 8px 0px;
     
 }
 .Subscribe-button{
     text-decoration: none;
-    border: 0px solid rosybrown;
+    border: 0px solid rgba(188, 143, 143, 0);
     background-color: rgb(7, 49, 104);
     color: white;
     border-radius: 20px;
@@ -59,19 +56,49 @@ a p{
    
 }
 .Subscribe-button:hover{
-    
     color: rgb(7, 49, 104);
     background-color: white;
     transition: 0.4s;
-   
 }
 main{
     width: 100%;
     margin: 0px;
-    padding: 0px;
-    background-image: url("Resources/Image.jpeg");
-    min-height: 800px;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
+    padding: 140px 0px;
+    background: linear-gradient(to right, rgba(24, 23, 23, 0.096) 50%, rgba(17, 17, 17, 0.041)), url('Resources/Image.jpeg');
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    
 }
+.myform{
+    width: 36.5%;
+    min-height: 410px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0px auto;
+}
+.small-form{
+    width: 95%;
+    min-height: 405px;
+    background-color: rgb(255, 255, 255);
+    border: 5px dotted red;
+    border-style: dashed;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0px auto;
+}
+.delicious{
+    color: red;
+}
+.explore-button{
+    text-decoration: none;
+    padding: 15px;
+    background-color: red;
+    color: white;
+}
+.button-small-container{
+    background-color: red;
+
+}
+
