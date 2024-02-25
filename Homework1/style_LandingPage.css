@@ -57,8 +57,9 @@ a p{
 }
 .Subscribe-button:hover{
     color: rgb(7, 49, 104);
-    background-color: white;
+    background-color: #ff7300;
     transition: 0.4s;
+    border: 0.5px;
 }
 main{
     width: 100%;
@@ -79,26 +80,270 @@ main{
     margin: 0px auto;
 }
 .small-form{
-    width: 95%;
+    width: 70%;
     min-height: 405px;
     background-color: rgb(255, 255, 255);
-    border: 5px dotted red;
+    border: 5px dotted rgb(2, 72, 104);
     border-style: dashed;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 100px;
     margin: 0px auto;
 }
-.delicious{
-    color: red;
+.small-form h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.3rem;
+    text-align: center;
+    line-height: 70px;
+    margin: 0px;
+}
+.small-form p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 25px;
+    margin: 10px 0px;
+    
+}
+.delicious-span{
+    color:#ff7300;
 }
 .explore-button{
     text-decoration: none;
-    padding: 15px;
-    background-color: red;
+    padding: 5px;
+    background-color: #ff7300;
     color: white;
+    border: none;
 }
 .button-small-container{
-    background-color: red;
+    text-align: center;
+    background-color: #ff7300;
+    width: 220px ;
+    border-radius: 30px;
+    margin: 20px auto;
+    
+}
+.section1{
+    width: 100%;
+    background-color: #f1f1f1;
+    min-height: 300px;
+    display: block;
+    justify-content: space-between;
+    margin: 0px;
+}
+.shop-span{
+    color:#ff7300;
+}
+.sub1-Section-1 h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.3rem;
+    text-align: center;
+    line-height: 70px;
+    margin: 0px;
+}
+.sub1-Section-1{
+    width: 20%;
+    margin: 0px auto 20px auto;
+    padding-top: 20px;
+}
+.sub2-Section-1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: rgba(95, 158, 160, 0);
+    margin: 20px auto;
+}
+.meal-1{
+    width: 14%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgba(210, 105, 30, 0);
+}
+.meal-2{
+    width: 14%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgba(210, 105, 30, 0);
+}
+.meal-3{
+    width: 14%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgba(210, 105, 30, 0);
+}
+.meal-4{
+    width: 14%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgba(210, 105, 30, 0);
+}
+
+.meal-5{
+    width: 14%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgba(210, 105, 30, 0);
+}
+.meal-6{
+    width: 14%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgba(210, 105, 30, 0);
+}
+
+.image-div1{
+    width: 60%;
+    height: 125px;
+    background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food1.jpeg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.image-div2{
+    width: 60%;
+    height: 125px;
+    background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food5.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.image-div3{
+    width: 60%;
+    height: 125px;
+    background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food3.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.image-div4{
+    width: 60%;
+    height: 125px;
+    background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food4.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    text-align: center;
+    margin: 10px auto;
 
 }
 
+.image-div5{
+    width: 60%;
+    height: 125px;
+    background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food2.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.image-div6{
+    width: 60%;
+    height: 125px;
+    background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food6.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.food{
+    width: 200px;
+    height: 200px;
+    margin: 20px 0px;
+    border-radius: 100px;
+}
+.sub2-Section-1 h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: center;
+}
+.section2{
+    width: 100%;
+    background-color: #f1f1f100;
+    min-height: 300px;
+    display: block;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.sub2-section2{
+    width: 70%;
+    margin: 0px auto 20px auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reciepe-span{
+    color:#ff7300;
+}
+.sub1-Section-2 h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.3rem;
+    text-align: center;
+    line-height: 70px;
+    margin: 0px;
+}
+.box{
+    width: 30%;
+    min-height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    padding: 0px;
+}
+.image-1{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+
+
+}
+.image-2{
+    width: 100%;
+    height: 250px;    
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    
+
+}
+.image-3{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px 20px 0px 0px;
+    /* background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food8.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    align-items: center;
+    text-align: center;
+}
+.recipe-image{
+    width: 200px;
+    margin-top: 20px;
+}
