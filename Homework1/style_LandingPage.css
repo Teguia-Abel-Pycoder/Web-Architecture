@@ -25,24 +25,42 @@ svg{
     margin: 0px;
 }
 nav{
-    width: 60%;
+    width: 70%;
     background-color: rgba(255, 228, 196, 0);
-    padding: 0px 220px;
+    padding: 0px 200px;
     display: flex;
     justify-content: space-between;
 }
 a{
     text-decoration: none;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 a p{
     margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    color: rgb(65, 63, 63);
 }
 .subscribe{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3rem;
     width: 20%;
     background-color: rgba(151, 28, 28, 0);
     text-align: right;
     padding: 8px 0px;
+    
+}
+.subscribe p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
     
 }
 .Subscribe-button{
@@ -71,6 +89,12 @@ main{
     min-height: 500px;
     
 }
+.chef{
+    margin: 0px auto;
+    text-align: center;
+    align-self: center;
+    
+}
 .myform{
     width: 36.5%;
     min-height: 410px;
@@ -78,6 +102,8 @@ main{
     border-radius: 20px;
     padding: 10px;
     margin: 0px auto;
+    text-align: center;
+
 }
 .small-form{
     width: 70%;
@@ -118,6 +144,11 @@ main{
     color: white;
     border: none;
 }
+.explore-button p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
 .button-small-container{
     text-align: center;
     background-color: #ff7300;
@@ -154,7 +185,7 @@ main{
 .sub2-Section-1{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
     background-color: rgba(95, 158, 160, 0);
     margin: 20px auto;
 }
@@ -197,7 +228,7 @@ main{
 }
 
 .image-div1{
-    width: 60%;
+    width: 67%;
     height: 125px;
     background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food1.jpeg');
     background-position: center;
@@ -209,7 +240,7 @@ main{
 
 }
 .image-div2{
-    width: 60%;
+    width: 67%;
     height: 125px;
     background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food5.jpg');
     background-position: center;
@@ -220,7 +251,7 @@ main{
 
 }
 .image-div3{
-    width: 60%;
+    width: 67%;
     height: 125px;
     background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food3.jpeg');
     background-position: center;
@@ -231,7 +262,7 @@ main{
 
 }
 .image-div4{
-    width: 60%;
+    width: 67%;
     height: 125px;
     background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food4.jpeg');
     background-position: center;
@@ -243,7 +274,7 @@ main{
 }
 
 .image-div5{
-    width: 60%;
+    width: 67%;
     height: 125px;
     background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food2.jpg');
     background-position: center;
@@ -254,7 +285,7 @@ main{
 
 }
 .image-div6{
-    width: 60%;
+    width: 67%;
     height: 125px;
     background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food6.jpeg');
     background-position: center;
@@ -287,7 +318,7 @@ main{
 }
 
 .sub2-section2{
-    width: 70%;
+    width: 66%;
     margin: 0px auto 20px auto;
     padding-top: 20px;
     display: flex;
@@ -306,16 +337,39 @@ main{
     line-height: 70px;
     margin: 0px;
 }
+.sub1-Section-2 {
+    
+    text-align: center;
+    justify-content: center;
+}
 .box{
-    width: 30%;
+    width: 31.5%;
     min-height: 300px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 0px 0px;
     padding: 0px;
+    text-align: center;
+}
+.box h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+.box h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px 10px;
+}
+.ingredient{
+    font-weight: 700;
 }
 .image-1{
     width: 100%;
-    height: 250px;
+    height: 280px;
     background-color: rgb(236, 236, 236);
     border-radius: 20px 20px 0px 0px;
     text-align: center;
@@ -324,26 +378,224 @@ main{
 }
 .image-2{
     width: 100%;
-    height: 250px;    
+    height: 280px;    
     background-color: rgb(236, 236, 236);
     border-radius: 20px 20px 0px 0px;
     text-align: center;
-    
 
 }
 .image-3{
     width: 100%;
-    height: 250px;
+    height: 280px;
     background-color: rgb(236, 236, 236);
     border-radius: 20px 20px 0px 0px;
-    /* background: linear-gradient(to right, rgba(24, 23, 23, 0) 50%, rgba(17, 17, 17, 0)), url('Resources/food8.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat; */
+    
     align-items: center;
     text-align: center;
 }
 .recipe-image{
+    width: 230px;
+    margin-top: 30px;
+}
+.section3{
+    min-height: 500px;
+    background-color: rgba(255, 99, 71, 0);
+    width: 66%;
+    margin: 0px auto;
+    display: block;
+    
+}
+.part-1{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.subpart1-part1{
+    height: 100px;
+    width: 20%;
+    background-color: rgba(208, 127, 255, 0);
+}
+.subpart1-part1 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.3rem;
+    color: #01102c;
+}
+.recipe-2{
+    color: #ff7300;
+}
+.subpart2-part1{
+    height: 100px;
+    width: 20%;
+    background-color: rgba(255, 127, 127, 0);
+    text-align: right;
+    /* padding-top: 15px; */
+}
+
+.view-more{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    border: 0px solid rgba(188, 143, 143, 0);
+    background-color: rgb(7, 49, 104);
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 15px 9px 15px ;
+    margin-top: 40px;
+   
+}
+.view-more:hover{
+    color: rgb(7, 49, 104);
+    background-color: #ff7300;
+    transition: 0.4s;
+    border: 0.5px;
+}
+.part-2{
+    font-family: "Poppins", sans-serif;
+    height: 650px;
+    width: 100%;
+    background-color: rgba(29, 42, 38, 0);
+    display: flex;
+}
+.subpart1-part2{
+    height: 650px;
+    width: 60%;
+    background-color: rgba(71, 61, 139, 0);
+    padding: 30px 20px 0px 0px;
+}
+.subpart1-part2 p{
+    margin-bottom: 0px;
+    color:#01102c;
+    padding: 0px 80px 0px 0px;
+    
+}
+.big-date{
+    font-size: 0.85rem;
+}
+.big-description{
+    font-size: 0.9rem;
+}
+.subpart2-part2{
+    height: 650px;
+    width: 40%;
+    background-color: rgba(61, 139, 106, 0);
+    display: block;
+    justify-content: space-between;
+    padding: 30px 0px 30px 10px;
+}
+.image-part{
+    margin: 0px;
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.137) 50%, rgba(17, 17, 17, 0.109)), url('Resources/chef3.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.blog-1{
+    width: 100%;
+    height: 29%;
+    background-color: rgba(255, 99, 71, 0);
+    display: flex;
+}
+.part1-blog-1{
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+}
+.part2-blog-1{
+    display: block;
+    width: 60%;
+    padding: 0px 20px;
+}
+.chef1{
     width: 200px;
-    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.blog-2{
+    width: 100%;
+    height: 29%;
+    background-color: rgba(255, 99, 71, 0);
+    display: flex;
+    margin: 30px 0px;
+}
+.blog-3{
+    width: 100%;
+    height: 29%;
+    background-color: rgba(255, 99, 71, 0);
+    display: flex;
+}
+.date{
+    color: rgb(85, 85, 85);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+.type{
+    width: 80px;
+    height: 20px;
+    background-color: rgba(130, 246, 149, 0.616);
+    border-radius: 30px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 6px;
+}
+.type p{
+    margin: 0px;
+    font-size: 0.7rem;
+}
+.name{
+    margin: 10px 0px;
+}
+.decription{
+    color: rgb(36, 35, 35);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 0px;
+}
+.section4{
+    width: 100%;
+    min-height: 400px;
+    background-color: tomato;
+    display: flex;
+    margin: 50px 0px;
+}
+.part1-section4{
+    width: 30%;
+    min-height: 400px;
+    background-color: rgb(71, 172, 255);
+}
+
+.part2-section4{
+    width: 40%;
+    background-color: rgb(71, 255, 71);
+    height: 400px;
+}
+
+.part3-section4{
+    width: 30%;
+    min-height: 400px;
+    background-color: rgb(71, 172, 255);
+}
+
+.subscription-span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: #ff7300;
 }
