@@ -91,6 +91,8 @@ main{
 }
 .chef{
     margin: 0px auto;
+    text-align: center;
+    align-self: center;
     
 }
 .myform{
@@ -380,7 +382,6 @@ main{
     background-color: rgb(236, 236, 236);
     border-radius: 20px 20px 0px 0px;
     text-align: center;
-    
 
 }
 .image-3{
@@ -584,14 +585,13 @@ main{
     background-color: rgb(71, 255, 71);
     height: 400px;
 }
-.part2-section4 h2{
-}
 
 .part3-section4{
     width: 30%;
     min-height: 400px;
     background-color: rgb(71, 172, 255);
 }
+
 .subscription-span{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
