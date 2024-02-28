@@ -89,6 +89,10 @@ main{
     min-height: 500px;
     
 }
+.chef{
+    margin: 0px auto;
+    
+}
 .myform{
     width: 36.5%;
     min-height: 410px;
@@ -96,6 +100,8 @@ main{
     border-radius: 20px;
     padding: 10px;
     margin: 0px auto;
+    text-align: center;
+
 }
 .small-form{
     width: 70%;
@@ -135,6 +141,11 @@ main{
     background-color: #ff7300;
     color: white;
     border: none;
+}
+.explore-button p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: bold;
 }
 .button-small-container{
     text-align: center;
@@ -324,6 +335,11 @@ main{
     line-height: 70px;
     margin: 0px;
 }
+.sub1-Section-2 {
+    
+    text-align: center;
+    justify-content: center;
+}
 .box{
     width: 31.5%;
     min-height: 300px;
@@ -386,6 +402,7 @@ main{
     width: 66%;
     margin: 0px auto;
     display: block;
+    
 }
 .part-1{
     height: 100px;
