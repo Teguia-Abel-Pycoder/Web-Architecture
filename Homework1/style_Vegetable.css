@@ -8,7 +8,7 @@ body{
 
 }
 header{
-    width: 65%;
+    width: 68%;
     margin: 10px auto 0px auto;
     background-color: rgba(172, 255, 47, 0);
     display:flex;
@@ -217,4 +217,128 @@ a p{
 .star{
     color: #ffe600;
     margin: 0px;
+}
+.section1{
+    width: 68%;
+    margin: 0px auto;
+    min-height: 500px;
+    background-color: #ff730000;
+}
+.part-1{
+    height: 100px;
+    width: 100%;
+    background-color: #ffe60000;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.part-1 h2{
+    font-size: 3rem;
+    
+}
+.fruits{
+    color: #ff7300;
+}
+.hat{
+    width: 100px;
+    text-align: center;
+}
+.part-2{
+    min-height: 400px;
+    width: 100%;
+    background-color: #2f00ff00;
+    justify-content: space-between;
+
+    display: flex;
+}
+.subpart1{
+    min-height: 400px;
+    width: 050%;
+    background-color: #ff730000;
+    border-radius: 30px 0px 0px 30px;
+
+}
+.subpart2{
+    min-height: 400px;
+    width: 49%;
+    background-color: #00ff0000;
+    padding: 0px 50px;
+    font-family: "Poppins", sans-serif;
+    
+    font-style: normal;
+}
+
+.subpart2 h3{
+    margin-top: 0px ;
+    font-size: 2.7rem;
+}
+.subpart2 h5{
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.diet{
+    height: 400px;
+    margin: 15px 0px;
+    border-radius: 20px;
+}
+.subscribe1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3rem;
+    width: 025%;
+    background-color: rgba(151, 28, 28, 0);
+    text-align: center;
+    padding: 8px 0px;
+    
+}
+.subscribe1 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.Subscribe1-button{
+    text-decoration: none;
+    border: 0px solid rgba(188, 143, 143, 0);
+    background-color: rgb(7, 49, 104);
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 15px 9px 15px ;
+   
+}
+.Subscribe1-button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #ff7300;
+    transition: 0.4s;
+    border: 0.5px;
+}
+.mid{
+    width: 45%;
+    max-height: 200px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 40px auto 0px auto;
+  
+}
+.mid h2{
+    margin-bottom: 0px ;
+    font-size: 2.1rem;
+
+}
+.mid p{
+    font-weight: 300;
+    font-size: .9rem;
+
 }
