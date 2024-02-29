@@ -322,6 +322,12 @@ a p{
     transition: 0.4s;
     border: 0.5px;
 }
+.selected{
+    text-decoration: underline;
+    color: #ff7300;
+    font-weight: 700;
+    
+}
 .mid{
     width: 45%;
     max-height: 200px;

@@ -38,7 +38,7 @@ a{
 a p{
     margin: 0px;
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
     font-size: 1rem;
     color: rgb(65, 63, 63);
@@ -104,6 +104,11 @@ main{
     margin: 0px auto;
     text-align: center;
 
+}
+.selected{
+    text-decoration: underline;
+    color: #ff7300;
+    font-weight: 700;
 }
 .small-form{
     width: 70%;

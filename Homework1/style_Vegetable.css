@@ -35,6 +35,10 @@ a{
     text-decoration: none;
     margin-top: 10px;
 }
+.selected{
+    text-decoration: underline;
+    color: #ff7300;
+}
 a p{
     margin: 0px;
     font-family: "Poppins", sans-serif;
