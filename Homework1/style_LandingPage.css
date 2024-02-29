@@ -608,3 +608,24 @@ main{
     font-size: 1rem;
     color: #ff7300;
 }
+.bottom-container{
+    margin-top: 50px;
+    background-color: #063161;
+    line-height: 3em;
+    text-align: center;
+  }
+  .cp{
+    font-family: monospace;
+    font-size: 120%;
+    color: #EAF6F6;
+  
+  }
+  .date{
+    font-size:95%;
+  }
+  a{
+    margin: 15px 30px;
+    text-decoration: none;
+    color: #88623e;
+  }
+  
